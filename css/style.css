@@ -90,6 +90,46 @@ a {
   transition: 0.3s;
 }
 
+.primeiro {
+    
+}
+
+.t1{
+    font-family: "teko";
+    font-size: 25pt;
+    color: white;
+    padding-left: 10%;
+    padding-top: 8%;
+}
+.txt1{
+    font-family: "roboto";
+    text-align: justify;
+    padding-top: 1%;
+    padding-left: 10%;
+    padding-right: 45%;
+    line-height: 150%;
+    color: white;
+
+}
+
+.btn1{
+    font-family: "cabin";
+    color: blue;
+    position: relative;
+    top: 30px;
+    padding: 10px 40px;
+    margin-left: 10%;
+    border:2px solid blue;
+    border-radius: 5px;
+}
+
+.btn1:hover{
+    background-color: blue;
+    color: white;
+    transition: .5s;
+
+}
+
 @media (max-width: 750px) {
     .hamburger{
         display: block;
