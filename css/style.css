@@ -90,10 +90,6 @@ a {
   transition: 0.3s;
 }
 
-.primeiro {
-    
-}
-
 .t1{
     font-family: "teko";
     font-size: 25pt;
@@ -101,6 +97,7 @@ a {
     padding-left: 10%;
     padding-top: 8%;
 }
+
 .txt1{
     font-family: "roboto";
     text-align: justify;
@@ -135,6 +132,16 @@ a {
         display: block;
         z-index: 1;
     }
+    .hero{
+        height: calc(100vh + 250px);
+    }
+
+    .txt1{
+        
+        padding-left: 10%;
+        padding-right: 10%;
+        
+    }
 
     .nav-list {
         position: fixed;
@@ -143,7 +150,7 @@ a {
         width: 100vw;
         height: 100vh;
         background-color: white;
-        clip-path: circle(100px at 90% -15%);
+        clip-path: circle(100px at 90% -25%);
         transition: 1s ease-out;
 
         
