@@ -180,7 +180,14 @@ a {
 
 }
 
-
+@media (max-width: 1327px){
+    .container{
+        
+        padding: 30px;
+        border: solid 5px;
+        border-color: blue;
+    }
+}
 
 @media (max-width: 750px) {
     .hamburger{
